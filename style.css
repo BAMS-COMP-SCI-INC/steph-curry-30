@@ -1,3 +1,31 @@
+/* root data */
+:root {
+  --para-btns-text: "Montserrat", sans-serif;
+  --headings-text: "Roboto", sans-serif;
+  --brownish: #a7a599;
+  --white: #fff;
+  --grey: #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings-text);
+}
+
+p,
+button,
+input {
+  font-family: var(--headings-text);
+}
+
+.home-page {
+  background-color: ;
+}
+
 /* media queries */
 /* mobile */
 @media only screen and (max-width: 600px) {}
