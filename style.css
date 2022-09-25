@@ -23,12 +23,46 @@ input {
 }
 
 .home-page {
-  background-color: ;
+  background-color: var(--brownish);
+  position: relative;
+  z-index: 20;
+}
+
+.about-page {
+  background-color: var(--white);
+}
+
+footer {
+  background-color: var(--grey);
+}
+
+.main-heading {
+  color: var(--white);
+  text-transform: uppercase;
+  position: relative;
+  z-index: 30;
+  margin-top: -100px;
+}
+
+.home-page .image-container {
+  display: flex;
+}
+
+.home-page .image-container img {
+  width: 60vw;
+  margin: 0 auto;
 }
 
 /* media queries */
 /* mobile */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .home-page .image-container img {
+    position: relative;
+    margin-top: 100px;
+    z-index: 10;
+  }
+
+}
 
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 768px) {}
